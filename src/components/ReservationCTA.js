@@ -11,7 +11,6 @@ import {
 } from "../animations/fadeAnimations";
 
 const ReservationCTA = () => {
-  // Détecter quand la section est visible
   const { ref, inView } = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -20,14 +19,15 @@ const ReservationCTA = () => {
   return (
     <section
       ref={ref}
-      className="bg-[#7d3c98] text-white py-16 px-6 text-center"
+      className="relative bg-[#7d3c98] text-white py-16 px-6 text-center overflow-hidden"
+      //                                                                ^^^^^^^^^^^^^^^
+      // overflow-hidden pour éviter le débordement horizontal.
       style={{
         background:
           "linear-gradient(180deg, rgba(60,157,155,1) 0%, rgba(44,44,44,1) 100%, rgba(125,60,152,1) 100%)",
       }}
     >
       <div className="max-w-7xl mx-auto">
-        {/* Container avec animation de cascade */}
         <motion.div
           variants={staggerContainer}
           initial="hidden"

@@ -27,7 +27,6 @@ const tarifsData = [
 ];
 
 const TarifsOverview = () => {
-  // Détecter quand la section est visible
   const { ref, inView } = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -36,7 +35,9 @@ const TarifsOverview = () => {
   return (
     <motion.section
       ref={ref}
-      className="bg-[#3c9d9b] text-white py-16 px-6"
+      className="bg-[#3c9d9b] text-white py-16 px-6 overflow-hidden" 
+      //                                         ^^^^^^^^^^^^^^^
+      // overflow-hidden pour éviter le débordement horizontal.
       variants={staggerContainer}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}

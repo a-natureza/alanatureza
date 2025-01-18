@@ -14,8 +14,8 @@ const Accueil = () => {
       <Services />
       <Testimonials />
       <FAQ />
-      <TarifsOverview />
-      <ReservationCTA />
+      {/* <TarifsOverview />
+      <ReservationCTA /> */}
     </div>
   );
 };
