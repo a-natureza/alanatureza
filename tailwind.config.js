@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        'great-vibes': ['"Great Vibes"', 'cursive'],
       },
     },
   },
