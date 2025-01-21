@@ -1,0 +1,264 @@
+{
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "intro": "Encuentra aquí las respuestas a las preguntas más comunes sobre nuestros servicios.",
+      "questions": [
+        {
+          "question": "¿Cuáles son los beneficios de la acupuntura?",
+          "answer": "La acupuntura ayuda a restablecer el equilibrio energético del cuerpo, aliviar el dolor, reducir el estrés y mejorar el bienestar general."
+        },
+        {
+          "question": "¿Cuántas sesiones son necesarias para obtener resultados?",
+          "answer": "El número de sesiones depende de la condición a tratar. Algunas personas sienten los beneficios después de la primera sesión, mientras que otras pueden necesitar varias consultas."
+        },
+        {
+          "question": "¿Son adecuados sus servicios para todos?",
+          "answer": "Sí, nuestros servicios son adecuados para adultos, niños y personas mayores. Sin embargo, algunas técnicas pueden adaptarse según las necesidades individuales."
+        },
+        {
+          "question": "¿Ofrecen consultas personalizadas?",
+          "answer": "Sí, cada consulta se adapta a las necesidades y objetivos del cliente."
+        },
+        {
+          "question": "¿Cuáles son las contraindicaciones para los tratamientos?",
+          "answer": "Ciertas condiciones específicas, como infecciones agudas, heridas abiertas o embarazos de alto riesgo, pueden requerir ajustes o evitar ciertos tratamientos."
+        },
+        {
+          "question": "¿Puedo reservar una sesión en línea?",
+          "answer": "Sí, puedes reservar una sesión directamente en línea a través de nuestro sitio web o contactándonos por teléfono."
+        }
+      ],
+      "btnLabel": "Haz otra pregunta"
+    },
+    "presentation": {
+        "title": "¿Quién soy yo?",
+        "name": "Alana Tureza",
+        "subtitle": "Acupuntura & Bienestar",
+        "intro": "\"Soy una profesional calificada con más de 16 años de experiencia en el cuidado de la salud, especializada en acupuntura tradicional china, masaje terapéutico y bienestar. Mi objetivo es guiarte hacia un equilibrio físico y energético, en armonía con tu espíritu.\"",
+        "imageAltMobile": "Alana Tureza",
+        "imageAltDesktop": "Alana Tureza",
+        "degrees": {
+          "title": "Diplomas y Calificaciones",
+          "list": [
+            "Técnico en Acupuntura, 2009 (1600h)",
+            "Shiatsu Koho-Igaku, 2008 (725h)",
+            "Manipulación Vertebral y Estética Médica"
+          ]
+        },
+        "numbers": {
+          "title": "Algunas Cifras",
+          "list": [
+            "+16 años de experiencia",
+            "+6000 pacientes satisfechos",
+            "Atención especializada para adultos, niños y post-cáncer"
+          ]
+        }
+      },
+      "services": {
+        "title": "Nuestros Servicios",
+        "intro": "Descubra nuestras terapias para una vida más equilibrada y armoniosa.",
+        "list": [
+          {
+            "title": "Masaje Relajante",
+            "description": "Promueve una profunda relajación, reduce el estrés y mejora la circulación sanguínea."
+          },
+          {
+            "title": "Acupuntura Tradicional",
+            "description": "Práctica milenaria china que alivia el dolor y reequilibra el cuerpo a través de puntos específicos."
+          },
+          {
+            "title": "Shiatsu Koho-Igaku",
+            "description": "Técnica japonesa que utiliza la presión de los dedos para armonizar el cuerpo y la mente."
+          },
+          {
+            "title": "Masaje Deportivo",
+            "description": "Ideal para atletas, alivia tensiones musculares y ayuda en la recuperación post-entrenamiento."
+          },
+          {
+            "title": "Masaje de Bambú",
+            "description": "Masaje realizado con palos de bambú, proporcionando relajación y activación de la circulación."
+          },
+          {
+            "title": "Shiatsu Facial",
+            "description": "Rejuvenece la piel, mejora la circulación y alivia tensiones en el rostro."
+          }
+        ]
+      },
+      "tarifs": {
+        "title": "Precios",
+        "description": "Descubra nuestras ofertas para una experiencia única de bienestar.",
+        "list": [
+          {
+            "title": "Relajación Esencial",
+            "duration": "1 hora",
+            "price": "225 R$"
+          },
+          {
+            "title": "Armonía Profunda",
+            "duration": "1h30",
+            "price": "270 R$"
+          },
+          {
+            "title": "Bienestar Supremo",
+            "duration": "2 horas",
+            "price": "333 R$"
+          }
+        ],
+        "button": "Ver Todos los Precios"
+      },
+      "reservationCTA": {
+        "title": "¿Listo para cuidarte?",
+        "description": "Regálate un momento de bienestar y equilibrio con nuestras sesiones personalizadas. Reserva una cita ahora para descubrir nuestros tratamientos adaptados a tus necesidades.",
+        "button": "Reservar Ahora",
+        "address": "Dirección: Rod. Jorn. Manoel de Menezes, 1666 - Barra da Lagoa, Florianópolis SC, 88061-700, Brasil",
+        "phone": "Teléfono: +55 38 98839-1892",
+        "hours": "Horario: Lunes - Domingo: 8 AM - 8 PM"
+      },
+      "footer": {
+        "contactTitle": "Contacto",
+        "address": "Rod. Jorn. Manoel de Menezes",
+        "city": "1666 - Barra da Lagoa",
+        "fullAddress": "Florianópolis, SC, 88061-700, Brasil",
+        
+        "phone": "+55 38 98839-1892",
+        "locationTitle": "Dónde Encontrarnos",
+        "mapTitle": "Mapa de Ubicación",
+        "followUsTitle": "Síguenos",
+        "hoursTitle": "Horario",
+        "hours": "Lunes - Domingo: 8 AM - 8 PM",
+        "allRights": "Todos los derechos reservados.",
+        "legalNotices": "Avisos Legales",
+        "privacyPolicy": "Política de Privacidad"
+      },
+      "navbar": {
+        "contactPhone": "+55 38 98839-1892",
+        "reserveSession": "Reservar una Sesión",
+        "logoAlt": "Logo de Alana Tureza",
+        "brandName": "Alana Tureza",
+        "menu": [
+          {
+            "title": "Inicio",
+            "path": "/",
+            "icon": "<FaHome />"
+          },
+          {
+            "title": "Servicios",
+            "path": "/services",
+            "icon": "<FaServicestack />"
+          },
+          {
+            "title": "Precios",
+            "path": "/prices",
+            "icon": "<FaDollarSign />"
+          },
+          {
+            "title": "Contacto",
+            "path": "/contact",
+            "icon": "<FaEnvelope />"
+          }
+        ],
+        "homeHeader": {
+          "title": "Descubre la Armonía entre tu Cuerpo y Mente",
+          "subtitle": "Masaje Terapéutico y Acupuntura Tradicional a tu Servicio."
+        }
+      },
+      "testimonials": {
+        "title": "OPINIONES DE CLIENTES",
+        "subtitle": "¡Tu Satisfacción, Mi Prioridad!",
+        "seeMore": "Ver más en Google"
+      },
+      "servicesPage": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Descubre nuestros diferentes enfoques para un bienestar óptimo",
+        "bookNow": "Reservar Ahora",
+        "massageRelaxant": {
+          "title": "Masaje Relajante",
+          "description": "Disfruta de un masaje relajante para aliviar tensiones y recuperar la armonía entre cuerpo y mente. Ideal para reducir el estrés y mejorar la calidad del sueño."
+        },
+        "massageSportif": {
+          "title": "Masaje Deportivo",
+          "description": "Diseñado específicamente para atletas y personas activas, este masaje se centra en la recuperación muscular y la prevención de lesiones. Perfecto antes o después de un esfuerzo intenso."
+        },
+        "acupuncture": {
+          "title": "Acupuntura Tradicional",
+          "description": "Descubre los beneficios de la acupuntura, una práctica milenaria que reequilibra la energía vital, alivia el dolor y mejora la circulación sanguínea."
+        },
+        "shiatsu": {
+          "title": "Shiatsu Koho-Igaku",
+          "description": "Una técnica japonesa que utiliza la presión de los dedos para armonizar las energías del cuerpo. Ideal para reducir el estrés y liberar tensiones."
+        },
+        "espaceSoin": {
+          "title": "Tu Espacio de Cuidado",
+          "description": "Nuestro espacio, ubicado en Barra da Lagoa (Florianópolis), ofrece un ambiente zen y acogedor, propicio para una relajación total. Cada detalle está pensado para favorecer tu bienestar."
+        }
+      },
+      "tarifsPage": {
+        "title": "Nuestros Precios",
+        "experiences": {
+          "heading": "Experiencias Revitalizantes",
+          "relaxamentoEssencial": {
+            "title": "Relajación Esencial",
+            "description": "Un descanso para tu cuerpo y mente: elige entre masaje terapéutico o acupuntura para aliviar tensiones."
+          },
+          "harmoniaProfunda": {
+            "title": "Armonía Profunda",
+            "description": "1h30 de masaje terapéutico o 1h de masaje combinado con baño de pies para revitalizar tus energías."
+          },
+          "bemEstarSupremo": {
+            "title": "Bienestar Supremo",
+            "description": "La combinación perfecta: masaje relajante y acupuntura para una experiencia transformadora."
+          }
+        },
+        "plans": {
+          "heading": "Planes de Tratamiento",
+          "renoveSuaEnergia": {
+            "title": "Renueva Tu Energía",
+            "description": "Para quienes buscan un cuidado continuo y profundo, ideal para aliviar el estrés acumulado."
+          },
+          "transformacaoTotal": {
+            "title": "Transformación Total",
+            "description": "El plan de cuidado ideal para transformar tu bienestar con tratamientos prolongados."
+          },
+          "massagemTherapeutica": {
+            "title": "Masaje Terapéutico",
+            "description": "Descubre el poder de 10 sesiones de masaje para restaurar tu salud y equilibrio."
+          },
+          "acupunturaIntensiva": {
+            "title": "Acupuntura Intensiva",
+            "description": "Un plan dedicado para tratar molestias y promover el equilibrio interno."
+          }
+        },
+        "duration": "Duración",
+        "sessions": "Sesiones",
+        "price": "Precio",
+        "bookNow": "Reservar Ahora"
+      },
+      "contactPage": {
+        "title": "Contáctanos",
+        "subtitle": "Estamos aquí para ayudarte con cualquier consulta o cita.",
+        "contactInfo": {
+          "heading": "Ponerse en Contacto",
+          "whatsapp": "WhatsApp: +55 38 98839-1892",
+          "email": "Correo Electrónico: alanatureza@hotmail.com"
+        },
+        "findUs": {
+          "heading": "Encuéntranos en",
+          "instagram": "Instagram",
+          "facebook": "Facebook"
+        },
+        "booking": {
+          "heading": "Reservar una Cita",
+          "message": "Nuestro sistema de reservas está en construcción. Por favor, vuelve más tarde o contáctanos directamente."
+        },
+        "contactForm": {
+          "heading": "Formulario de Contacto",
+          "message": "Nuestro formulario de contacto está en construcción. Por favor, contáctanos vía WhatsApp o Correo Electrónico."
+        }
+      },
+    "language": {
+      "english": "Inglés",
+      "french": "Francés",
+      "spanish": "Español",
+      "portuguese": "Portugués"
+    }
+  }

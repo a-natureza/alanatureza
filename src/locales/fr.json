@@ -1,0 +1,269 @@
+{
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "intro": "Trouvez ici les réponses aux questions les plus courantes sur nos services.",
+      "questions": [
+        {
+          "question": "Quels sont les bienfaits de l'acupuncture ?",
+          "answer": "L'acupuncture aide à rééquilibrer l'énergie du corps, soulager la douleur, réduire le stress et améliorer le bien-être général."
+        },
+        {
+          "question": "Combien de séances sont nécessaires pour obtenir des résultats ?",
+          "answer": "Le nombre de séances dépend de la condition traitée. Certaines personnes ressentent des bienfaits dès la première séance, tandis que d'autres peuvent nécessiter plusieurs consultations."
+        },
+        {
+          "question": "Vos services sont-ils adaptés à tout le monde ?",
+          "answer": "Oui, nos services conviennent aux adultes, enfants et seniors. Cependant, certaines techniques peuvent être adaptées selon les besoins individuels."
+        },
+        {
+          "question": "Proposez-vous des consultations personnalisées ?",
+          "answer": "Oui, chaque consultation est adaptée en fonction des besoins et des objectifs du client."
+        },
+        {
+          "question": "Quelles sont les contre-indications aux traitements ?",
+          "answer": "Certaines conditions spécifiques, telles que les infections aiguës, les plaies ouvertes ou les grossesses à risque, peuvent nécessiter des ajustements ou l'évitement de certains traitements."
+        },
+        {
+          "question": "Puis-je réserver une séance en ligne ?",
+          "answer": "Oui, vous pouvez réserver une séance directement en ligne via notre site web ou en nous contactant par téléphone."
+        }
+      ],
+      "btnLabel": "Poser une autre question"
+    },
+    
+        "presentation": {
+          "title": "Qui suis-je ?",
+          "name": "Alana Tureza",
+          "subtitle": "Acupuncture & Bien-être",
+          "intro": "\"Je suis une professionnelle qualifiée avec plus de 16 ans d'expérience dans les soins de santé, spécialisée en acupuncture traditionnelle chinoise, massage thérapeutique, et bien-être. Mon objectif est de vous guider vers un équilibre physique et énergétique, en harmonie avec votre esprit.\"",
+          "imageAltMobile": "Alana Tureza",
+          "imageAltDesktop": "Alana Tureza",
+          "degrees": {
+            "title": "Diplômes et qualifications",
+            "list": [
+              "Titre de Technicienne en Acupuncture, 2009 (1600h)",
+              "Shiatsu Koho-Igaku, 2008 (725h)",
+              "Manipulation Vertébrale et Esthétique Médicale"
+            ]
+          },
+          "numbers": {
+            "title": "Quelques chiffres",
+            "list": [
+              "+16 ans d'expérience",
+              "+6000 patients satisfaits",
+              "Soins spécialisés pour adultes, enfants, et post-cancer"
+            ]
+          }
+        }
+      ,
+      "services": {
+    "title": "Nos Services",
+    "intro": "Découvrez nos thérapies pour une vie plus équilibrée et harmonieuse.",
+    "list": [
+      {
+        "title": "Massagem Relaxante",
+        "description": "Promeut un profond relaxation, réduit le stress et améliore la circulation sanguine."
+      },
+      {
+        "title": "Acupuntura Tradicional",
+        "description": "Pratique millénaire chinoise qui soulage la douleur et rééquilibre le corps à travers des points spécifiques."
+      },
+      {
+        "title": "Shiatsu Koho-Igaku",
+        "description": "Technique japonaise qui utilise la pression des doigts pour harmoniser le corps et l'esprit."
+      },
+      {
+        "title": "Massagem Esportiva",
+        "description": "Idéale pour les athlètes, soulage les tensions musculaires et aide à la récupération post-entraînement."
+      },
+      {
+        "title": "Massagem de Bambu",
+        "description": "Massagem feita com bambus, proporcionando relaxamento e ativação da circulação."
+      },
+      {
+        "title": "Shiatsu Facial",
+        "description": "Rejuvenesce a pele, melhora a circulação e alivia tensões na face."
+      }
+    ]
+  },
+  
+"tarifs": {
+    "title": "Tarifs",
+    "description": "Découvrez nos offres pour une expérience unique de bien-être.",
+    "list": [
+      {
+        "title": "Relaxation Essentielle",
+        "duration": "1 heure",
+        "price": "225 R$"
+      },
+      {
+        "title": "Hamonie Profonde",
+        "duration": "1h30",
+        "price": "270 R$"
+      },
+      {
+        "title": "Bien-être suprême",
+        "duration": "2 heures",
+        "price": "333 R$"
+      }
+    ],
+    "button": "Voir tous les tarifs"
+  }
+  ,
+  "reservationCTA": {
+    "title": "Prêt à prendre soin de vous ?",
+    "description": "Offrez-vous un moment de bien-être et d'équilibre grâce à nos séances personnalisées. Prenez rendez-vous dès maintenant pour découvrir nos soins adaptés à vos besoins.",
+    "button": "Réserver maintenant",
+    "address": "Adresse : Rod. Jorn. Manoel de Menezes, 1666 - Barra da Lagoa, Florianópolis SC, 88061-700, Brésil",
+    "phone": "Téléphone : +55 38 98839-1892",
+    "hours": "Horaires : Lundi - Dimanche : 8h - 20h"
+  },
+  "footer": {
+    "contactTitle": "Contact",
+    "address": "Rod. Jorn. Manoel de Menezes",
+    "city": "1666 - Barra da Lagoa",
+    "fullAddress": "Florianópolis, SC, 88061-700, Brésil",
+    
+    "phone": "+55 38 98839-1892",
+    "locationTitle": "Où Nous Trouver",
+    "mapTitle": "Carte de Localisation",
+    "followUsTitle": "Suivez-Nous",
+    "hoursTitle": "Horaires",
+    "hours": "Lundi - Dimanche : 8h - 20h",
+    "allRights": "Tous droits réservés.",
+    "legalNotices": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "navbar": {
+    "contactPhone": "+55 38 98839-1892",
+    "reserveSession": "Réserver Une Séance",
+    "logoAlt": "Logo Alana Tureza",
+    "brandName": "Alana Tureza",
+    "menu": [
+      {
+        "title": "Accueil",
+        "path": "/",
+        "icon": "<FaHome />"
+      },
+      {
+        "title": "Services",
+        "path": "/services",
+        "icon": "<FaServicestack />"
+      },
+      {
+        "title": "Tarifs",
+        "path": "/prices",
+        "icon": "<FaDollarSign />"
+      },
+      {
+        "title": "Contact",
+        "path": "/contact",
+        "icon": "<FaEnvelope />"
+      }
+    ],
+    "homeHeader": {
+      "title": "Découvrez l'harmonie entre votre corps et votre esprit",
+      "subtitle": "Massage thérapeutique et acupuncture traditionnelle au service de votre bien-être."
+    }
+  },
+  "testimonials": {
+    "title": "AVIS CLIENTS",
+    "subtitle": "Votre Satisfaction, Ma Priorité !",
+    "seeMore": "Voir plus sur Google"
+  },
+  "servicesPage": {
+    "title": "Nos Prestations",
+    "subtitle": "Découvrez nos différentes approches pour un bien-être optimal",
+    "bookNow": "Réserver Maintenant",
+    "massageRelaxant": {
+      "title": "Massage Relaxant",
+      "description": "Profitez d'un massage relaxant pour apaiser les tensions et retrouver une harmonie entre le corps et l'esprit. Idéal pour réduire le stress et améliorer la qualité du sommeil."
+    },
+    "massageSportif": {
+      "title": "Massage Sportif",
+      "description": "Spécialement conçu pour les sportifs et personnes actives, ce massage cible la récupération musculaire et la prévention des blessures. Parfait avant ou après un effort soutenu."
+    },
+    "acupuncture": {
+      "title": "Acupuncture Traditionnelle",
+      "description": "Découvrez les bienfaits de l’acupuncture, pratique millénaire qui rééquilibre l’énergie vitale, soulage les douleurs et améliore la circulation sanguine."
+    },
+    "shiatsu": {
+      "title": "Shiatsu Koho-Igaku",
+      "description": "Une technique japonaise utilisant la pression des doigts pour harmoniser les énergies du corps. Idéal pour réduire le stress et libérer les tensions."
+    },
+    "espaceSoin": {
+      "title": "Votre Espace de Soin",
+      "description": "Notre espace, situé à Barra da Lagoa (Florianópolis), offre un cadre zen et chaleureux, propice à la détente totale. Chaque détail est pensé pour favoriser votre bien-être."
+    }
+  },
+  "tarifsPage": {
+    "title": "Nos Tarifs",
+    "experiences": {
+      "heading": "Expériences Revitalisantes",
+      "relaxamentoEssencial": {
+        "title": "Détente essentielle",
+        "description": "Une pause pour votre corps et votre esprit : choisissez entre un massage thérapeutique ou l'acupuncture pour soulager les tensions."
+      },
+      "harmoniaProfunda": {
+        "title": "Harmonie profonde",
+        "description": "1h30 de massage thérapeutique ou 1h de massage combiné avec bain de pieds pour revitaliser vos énergies."
+      },
+      "bemEstarSupremo": {
+        "title": "Bien-être suprême",
+        "description": "La combinaison parfaite : massage relaxant et acupuncture pour une expérience transformante."
+      }
+    },
+    "plans": {
+      "heading": "Plans de Traitement",
+      "renoveSuaEnergia": {
+        "title": "Récupération Energétique",
+        "description": "Pour ceux qui recherchent un soin continu et profond, idéal pour soulager le stress accumulé."
+      },
+      "transformacaoTotal": {
+        "title": "Transformation Totale",
+        "description": "Le plan de soin idéal pour transformer votre bien-être avec des traitements prolongés."
+      },
+      "massagemTherapeutica": {
+        "title": "Massage Thérapeutique",
+        "description": "Découvrez la puissance de 10 séances de massage pour restaurer votre santé et votre équilibre."
+      },
+      "acupunturaIntensiva": {
+        "title": "Acupuncture Traditionnelle",
+        "description": "Un plan dédié pour traiter les inconforts et promouvoir l'équilibre interne."
+      }
+    },
+    "duration": "Durée",
+    "sessions": "Séances",
+    "price": "Prix",
+    "bookNow": "Réserver Maintenant"
+  },
+  "contactPage": {
+    "title": "Contactez Nous",
+    "subtitle": "Nous sommes là pour vous aider avec toutes vos questions ou rendez-vous.",
+    "contactInfo": {
+      "heading": "Entrer en Contact",
+      "whatsapp": "WhatsApp : +55 38 98839-1892",
+      "email": "Email : alanatureza@hotmail.com"
+    },
+    "findUs": {
+      "heading": "Retrouvez Nous Sur",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "booking": {
+      "heading": "Prise de Rendez-vous",
+      "message": "Notre système de réservation est en cours de construction. Veuillez revenir plus tard ou nous contacter directement."
+    },
+    "contactForm": {
+      "heading": "Formulaire de Contact",
+      "message": "Notre formulaire de contact est en cours de construction. Veuillez nous contacter via WhatsApp ou Email."
+    }
+  },
+    "language": {
+      "english": "Anglais",
+      "french": "Français",
+      "spanish": "Espanhol",
+      "portuguese": "Português"
+    }
+  }
+  

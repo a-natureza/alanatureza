@@ -1,0 +1,265 @@
+{
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "intro": "Find here the answers to the most common questions about our services.",
+      "questions": [
+        {
+          "question": "What are the benefits of acupuncture?",
+          "answer": "Acupuncture helps rebalance the body's energy, relieve pain, reduce stress, and improve overall well-being."
+        },
+        {
+          "question": "How many sessions are necessary to get results?",
+          "answer": "The number of sessions depends on the condition being treated. Some people feel benefits after the first session, while others may require multiple consultations."
+        },
+        {
+          "question": "Are your services suitable for everyone?",
+          "answer": "Yes, our services are suitable for adults, children, and seniors. However, some techniques may be adapted according to individual needs."
+        },
+        {
+          "question": "Do you offer personalized consultations?",
+          "answer": "Yes, each consultation is tailored based on the client's needs and goals."
+        },
+        {
+          "question": "What are the contraindications for treatments?",
+          "answer": "Certain specific conditions, such as acute infections, open wounds, or high-risk pregnancies, may require adjustments or avoidance of certain treatments."
+        },
+        {
+          "question": "Can I book a session online?",
+          "answer": "Yes, you can book a session directly online via our website or by contacting us by phone."
+        }
+      ],
+      "btnLabel": "Ask another question"
+    },
+    "presentation": {
+    "title": "Who am I?",
+    "name": "Alana Tureza",
+    "subtitle": "Acupuncture & Wellness",
+    "intro": "\"I am a qualified professional with over 16 years of experience in healthcare, specializing in traditional Chinese acupuncture, therapeutic massage, and wellness. My goal is to guide you towards physical and energetic balance, in harmony with your spirit.\"",
+    "imageAltMobile": "Alana Tureza",
+    "imageAltDesktop": "Alana Tureza",
+    "degrees": {
+      "title": "Degrees and Qualifications",
+      "list": [
+        "Technician in Acupuncture, 2009 (1600h)",
+        "Shiatsu Koho-Igaku, 2008 (725h)",
+        "Vertebral Manipulation and Medical Aesthetics"
+      ]
+    },
+    "numbers": {
+      "title": "Some Figures",
+      "list": [
+        "+16 years of experience",
+        "+6000 satisfied patients",
+        "Specialized care for adults, children, and post-cancer"
+      ]
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "intro": "Discover our therapies for a more balanced and harmonious life.",
+    "list": [
+      {
+        "title": "Relaxing Massage",
+        "description": "Promotes deep relaxation, reduces stress, and improves blood circulation."
+      },
+      {
+        "title": "Traditional Acupuncture",
+        "description": "Ancient Chinese practice that alleviates pain and rebalances the body through specific points."
+      },
+      {
+        "title": "Shiatsu Koho-Igaku",
+        "description": "Japanese technique that uses finger pressure to harmonize body and mind."
+      },
+      {
+        "title": "Sports Massage",
+        "description": "Ideal for athletes, relieves muscle tensions and aids in post-training recovery."
+      },
+      {
+        "title": "Bamboo Massage",
+        "description": "Massage performed with bamboo sticks, providing relaxation and activation of circulation."
+      },
+      {
+        "title": "Facial Shiatsu",
+        "description": "Rejuvenates the skin, improves circulation, and relieves facial tensions."
+      }
+    ]
+  },
+  "tarifs": {
+    "title": "Pricing",
+    "description": "Discover our offers for a unique wellness experience.",
+    "list": [
+      {
+        "title": "Essential Relaxation",
+        "duration": "1 hour",
+        "price": "225 R$"
+      },
+      {
+        "title": "Deep Harmony",
+        "duration": "1h30",
+        "price": "270 R$"
+      },
+      {
+        "title": "Supreme Well-being",
+        "duration": "2 hours",
+        "price": "333 R$"
+      }
+    ],
+    "button": "View All Prices"
+  },
+  "reservationCTA": {
+    "title": "Ready to Take Care of Yourself?",
+    "description": "Treat yourself to a moment of well-being and balance with our personalized sessions. Book an appointment now to discover our treatments tailored to your needs.",
+    "button": "Book Now",
+    "address": "Address: Rod. Jorn. Manoel de Menezes, 1666 - Barra da Lagoa, Florianópolis SC, 88061-700, Brazil",
+    "phone": "Phone: +55 38 98839-1892",
+    "hours": "Hours: Monday - Sunday: 8 AM - 8 PM"
+  },
+  "footer": {
+    "contactTitle": "Contact",
+    "address": "Rod. Jorn. Manoel de Menezes",
+    "city": "1666 - Barra da Lagoa",
+    "fullAddress": "Florianópolis, SC, 88061-700, Brazil",
+    
+    "phone": "+55 38 98839-1892",
+    "locationTitle": "Where to Find Us",
+    "mapTitle": "Location Map",
+    "followUsTitle": "Follow Us",
+    "hoursTitle": "Hours",
+    "hours": "Monday - Sunday: 8 AM - 8 PM",
+    "allRights": "All rights reserved.",
+    "legalNotices": "Legal Notices",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "navbar": {
+    "contactPhone": "+55 38 98839-1892",
+    "reserveSession": "Book a Session",
+    "logoAlt": "Alana Tureza Logo",
+    "brandName": "Alana Tureza",
+    "menu": [
+      {
+        "title": "Home",
+        "path": "/",
+        "icon": "<FaHome />"
+      },
+      {
+        "title": "Services",
+        "path": "/services",
+        "icon": "<FaServicestack />"
+      },
+      {
+        "title": "Pricing",
+        "path": "/prices",
+        "icon": "<FaDollarSign />"
+      },
+      {
+        "title": "Contact",
+        "path": "/contact",
+        "icon": "<FaEnvelope />"
+      }
+    ],
+    "homeHeader": {
+      "title": "Discover the Harmony Between Your Body and Mind",
+      "subtitle": "Therapeutic Massage and Traditional Acupuncture at Your Service"
+    }
+  },
+  "testimonials": {
+    "title": "CLIENT REVIEWS",
+    "subtitle": "Your Satisfaction, My Priority!",
+    "seeMore": "See More on Google"
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "Discover our different approaches for optimal well-being",
+    "bookNow": "Book Now",
+    "massageRelaxant": {
+      "title": "Relaxing Massage",
+      "description": "Enjoy a relaxing massage to soothe tensions and regain harmony between body and mind. Ideal for reducing stress and improving sleep quality."
+    },
+    "massageSportif": {
+      "title": "Sports Massage",
+      "description": "Specifically designed for athletes and active individuals, this massage targets muscle recovery and injury prevention. Perfect before or after intense effort."
+    },
+    "acupuncture": {
+      "title": "Traditional Acupuncture",
+      "description": "Discover the benefits of acupuncture, a millennial practice that rebalances vital energy, relieves pain, and improves blood circulation."
+    },
+    "shiatsu": {
+      "title": "Shiatsu Koho-Igaku",
+      "description": "A Japanese technique using finger pressure to harmonize the body's energies. Ideal for reducing stress and releasing tensions."
+    },
+    "espaceSoin": {
+      "title": "Your Care Space",
+      "description": "Our space, located in Barra da Lagoa (Florianópolis), offers a zen and warm setting conducive to total relaxation. Every detail is designed to promote your well-being."
+    }
+  },
+  "tarifsPage": {
+    "title": "Our Prices",
+    "experiences": {
+      "heading": "Revitalizing Experiences",
+      "relaxamentoEssencial": {
+        "title": "Essential Relaxation",
+        "description": "A break for your body and mind: choose between therapeutic massage or acupuncture to relieve tensions."
+      },
+      "harmoniaProfunda": {
+        "title": "Deep Harmony",
+        "description": "1h30 of therapeutic massage or 1h of combined massage with foot bath to revitalize your energies."
+      },
+      "bemEstarSupremo": {
+        "title": "Supreme Well-Being",
+        "description": "The perfect combination: relaxing massage and acupuncture for a transformative experience."
+      }
+    },
+    "plans": {
+      "heading": "Treatment Plans",
+      "renoveSuaEnergia": {
+        "title": "Renew Your Energy",
+        "description": "For those seeking continuous and deep care, ideal for relieving accumulated stress."
+      },
+      "transformacaoTotal": {
+        "title": "Total Transformation",
+        "description": "The ideal care plan to transform your well-being with prolonged treatments."
+      },
+      "massagemTherapeutica": {
+        "title": "Therapeutic Massage",
+        "description": "Discover the power of 10 massage sessions to restore your health and balance."
+      },
+      "acupunturaIntensiva": {
+        "title": "Intensive Acupuncture",
+        "description": "A dedicated plan to treat discomforts and promote internal balance."
+      }
+    },
+    "duration": "Duration",
+    "sessions": "Sessions",
+    "price": "Price",
+    "bookNow": "Book Now"
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We're here to assist you with any inquiries or appointments.",
+    "contactInfo": {
+      "heading": "Get in Touch",
+      "whatsapp": "WhatsApp: +55 38 98839-1892",
+      "email": "Email: alanatureza@hotmail.com"
+    },
+    "findUs": {
+      "heading": "Find Us On",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "booking": {
+      "heading": "Book an Appointment",
+      "message": "Our booking system is under construction. Please check back later or contact us directly."
+    },
+    "contactForm": {
+      "heading": "Contact Form",
+      "message": "Our contact form is under construction. Please reach out to us via WhatsApp or Email."
+    }
+  },
+    "language": {
+      "english": "English",
+      "french": "Français",
+      "spanish": "Español",
+      "portuguese": "Português"
+    }
+  }
+  

@@ -4,10 +4,17 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 // Lazy-loading pour améliorer les performances
 const Accueil = lazy(() => import('./pages/Accueil'));
 const Prices = lazy(() => import('./pages/Prices'));
-const NotFound = lazy(() => import('./pages/NotFound')); // si vous avez une 404
+const Services = lazy(() => import('./pages/Services'));
+const NotFound = lazy(() => import('./pages/NotFound'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Legal = lazy(() => import('./pages/MentionsLegales'));
+const Privacy = lazy(() => import('./pages/PolitiqueConfidentialite'));
+
+
 
 function App() {
   return (
@@ -20,6 +27,10 @@ function App() {
             <Route path="/" element={<Accueil />} />
             <Route path="/prices" element={<Prices />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/legal" element={<Legal />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
       </Suspense>

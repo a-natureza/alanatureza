@@ -1,57 +1,43 @@
 // src/components/Navbar.jsx
 
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import classNames from "classnames";
 import { motion, AnimatePresence } from "framer-motion";
 import { menuVariants, overlayVariants } from "../animations/animationVariants";
 import VideoWithFallback from "./VideoWithFallback";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next"; 
+import { useInView } from "react-intersection-observer"; 
 
-// Importez les icônes souhaitées depuis react-icons
+// Import des icônes
 import {
   FaHome,
   FaServicestack,
   FaDollarSign,
   FaEnvelope,
+  FaWhatsapp, // Icône WhatsApp
 } from "react-icons/fa";
 
-// Exemple de logo, remplacez par votre logo si disponible
-
-const menuItems = [
-  {
-    title: "Accueil",
-    path: "/",
-    icon: <FaHome className="inline-block mr-2" />,
-  },
-  {
-    title: "Prestations",
-    path: "/prestations",
-    icon: <FaServicestack className="inline-block mr-2" />,
-  },
-  {
-    title: "Tarifs",
-    path: "/prices",
-    icon: <FaDollarSign className="inline-block mr-2" />,
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <FaEnvelope className="inline-block mr-2" />,
-  },
-];
-
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t } = useTranslation(); 
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const navigate = useNavigate(); 
 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
+  // Fermer le menu mobile quand on change de route
   useEffect(() => {
-    // Fermer le menu mobile quand on change de route
     setIsMobileMenuOpen(false);
   }, [location.pathname]);
 
+  // Fermer le menu mobile quand on resize
   useEffect(() => {
-    // Fermer le menu mobile quand on resize
     const handleResize = () => setIsMobileMenuOpen(false);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -74,17 +60,52 @@ const Navbar = () => {
     return () => document.removeEventListener("click", handleOutsideClick);
   }, [isMobileMenuOpen]);
 
+  // Récupérer les éléments du menu depuis les traductions
+  const menuItems = t("navbar.menu", { returnObjects: true }) || [];
+
+  // Map pour associer chaque path à son icône
+  const iconMap = {
+    "/": <FaHome className="inline-block mr-2" />,
+    "/services": <FaServicestack className="inline-block mr-2" />,
+    "/prices": <FaDollarSign className="inline-block mr-2" />,
+    "/contact": <FaEnvelope className="inline-block mr-2" />,
+  };
+
   return (
     <>
-      {/* Fixed Header Container */}
+      {/* Conteneur fixe en haut */}
       <div className="fixed top-0 w-full z-50">
         {/* Info Bar */}
         <div className="bg-[#3c9d9b] text-white py-2 px-4 shadow-sm">
           <div className="max-w-7xl mx-auto flex justify-between items-center">
-            <span>📞 +55 38 98839-1892</span>
-            <button className="bg-[#7d3c98] hover:bg-[#5c2b71] text-white py-1 px-4 rounded transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-[#5c2b71]">
-              Réserver Une Séance
+            {/* Bouton WhatsApp :
+                - Sur desktop, on affiche l'icône + numéro
+                - Sur mobile, seulement l'icône */}
+            <a
+              href="https://wa.me/5538988391892"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 hover:text-[#f5e6cc] transition-colors duration-300"
+            >
+              <FaWhatsapp className="text-grey text-xl" size={36}  />
+              {/* Sur desktop, on affiche le numéro (contactPhone) */}
+              <span className="hidden md:inline">
+                {t("navbar.contactPhone")}
+              </span>
+            </a>
+
+            {/* Bouton pour redirection vers /contact */}
+            <button
+              className="bg-[#7d3c98] hover:bg-[#5c2b71] text-white py-1 px-4 rounded transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-[#5c2b71]"
+              onClick={() => navigate("/contact")}
+            >
+              {t("navbar.reserveSession")}
             </button>
+
+            {/* Language Switcher */}
+            <div className="ml-4">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
 
@@ -97,7 +118,7 @@ const Navbar = () => {
                 <NavLink to="/">
                   <img
                     src={`${process.env.PUBLIC_URL}/assets/images/logo.png`}
-                    alt="Alana Tureza Logo"
+                    alt={t("navbar.logoAlt")}
                     className="h-10 w-auto mr-2"
                     loading="lazy"
                   />
@@ -108,7 +129,7 @@ const Navbar = () => {
                   className="text-3xl text-[#f5e6cc] transition-colors hover:text-[white]"
                 >
                   <span className="inline-block border-b border-[#f5e6cc] pb-1">
-                  Alana Tureza
+                    {t("navbar.brandName")}
                   </span>
                 </NavLink>
               </div>
@@ -130,7 +151,7 @@ const Navbar = () => {
                   >
                     {({ isActive }) => (
                       <>
-                        {item.icon}
+                        {iconMap[item.path] || null}
                         {item.title}
                         {/* Sous-ligne animée */}
                         <span
@@ -223,7 +244,7 @@ const Navbar = () => {
                               }
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
-                              {item.icon}
+                              {iconMap[item.path] || null}
                               {item.title}
                             </NavLink>
                           </motion.li>
@@ -240,8 +261,6 @@ const Navbar = () => {
 
       {/* Header Content */}
       <div className="pt-12 relative">
-        {" "}
-        {/* 3rem padding-top to account for Info Bar (py-2) and Navbar (py-4) */}
         {isHomePage && (
           <div className="relative flex flex-col items-center justify-center h-screen text-center">
             {/* Video Background */}
@@ -258,16 +277,14 @@ const Navbar = () => {
             {/* Content */}
             <div className="relative z-10">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-lg">
-                Découvrez l'harmonie entre votre corps et votre esprit
+                {t("navbar.homeHeader.title")}
               </h1>
               <p className="text-lg md:text-2xl text-[#f5e6cc] drop-shadow-lg">
-                Massage thérapeutique et acupuncture traditionnelle au service
-                de votre bien-être.
+                {t("navbar.homeHeader.subtitle")}
               </p>
             </div>
           </div>
         )}
-        {/* Autres contenus peuvent être ajoutés ici */}
       </div>
     </>
   );

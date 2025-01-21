@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { useTranslation } from "react-i18next"; // Import du hook useTranslation
 
 // Import Swiper et SwiperSlide
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -24,7 +25,7 @@ const testimonialsData = [
     photo: `${process.env.PUBLIC_URL}/assets/images/KevinJames.jpg`,
   },
   {
-    name: 'Verena Carvalho vieira',
+    name: 'Verena Carvalho Vieira',
     feedback:
       'Excellent professionnel !',
     photo: `${process.env.PUBLIC_URL}/assets/images/VerenaCarvalho.jpg`,
@@ -62,6 +63,8 @@ const fadeInUp = {
 };
 
 const Testimonials = () => {
+  const { t } = useTranslation(); // Initialisation de useTranslation
+
   // Détecter quand la section est visible
   const { ref, inView } = useInView({
     threshold: 0.2,
@@ -90,13 +93,13 @@ const Testimonials = () => {
             className="text-3xl md:text-4xl font-bold mb-2"
             style={{ color: '#f5e6cc' }}
           >
-            AVIS CLIENTS
+            {t("testimonials.title")}
           </h2>
           <p
             className="text-lg"
             style={{ color: '#f5e6cc' }}
           >
-            Votre Satisfaction, Ma Priorité !
+            {t("testimonials.subtitle")}
           </p>
         </motion.div>
 
@@ -159,6 +162,24 @@ const Testimonials = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+        </motion.div>
+
+        {/* Bouton de Redirection vers les Avis Google */}
+        <motion.div
+          variants={fadeInUp}
+          initial="hidden"
+          animate={inView ? 'visible' : 'hidden'}
+          transition={{ duration: 0.8, ease: 'easeOut', delay: 1 }}
+          className="text-center"
+        >
+          <a
+            href="https://www.google.com/maps/place/Acupuntura+%26+Massagem+-+Alana+Daniele/@-27.5980258,-48.4356425,17z/data=!4m18!1m9!3m8!1s0x95273f9b14b9d63b:0x59419eb3e9246d7f!2sAcupuntura+%26+Massagem+-+Alana+Daniele!8m2!3d-27.5980258!4d-48.4356425!9m1!1b1!16s%2Fg%2F11t5njf8d0!3m7!1s0x95273f9b14b9d63b:0x59419eb3e9246d7f!8m2!3d-27.5980258!4d-48.4356425!9m1!1b1!16s%2Fg%2F11t5njf8d0?hl=pt-BR&authuser=0&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" // Remplacez par l'URL exacte de vos avis Google
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 bg-[#3c9d9b] hover:bg-[#2b7a79] text-white py-2 px-6 rounded-full transition-colors duration-300"
+          >
+            {t("testimonials.seeMore")}
+          </a>
         </motion.div>
       </div>
     </section>

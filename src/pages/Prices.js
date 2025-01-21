@@ -1,91 +1,177 @@
+// src/pages/TarifsPage.jsx
+
 import React from 'react';
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { useTranslation } from "react-i18next"; 
+import { useNavigate } from 'react-router-dom'; 
 
 const TarifsPage = () => {
+  const { t } = useTranslation(); 
+  const navigate = useNavigate(); 
+
   const experiences = [
     {
-      title: 'Relaxamento Essencial',
+      titleKey: 'tarifsPage.experiences.relaxamentoEssencial.title',
       duration: '1 heure',
-      description: 'Une pause pour votre corps et votre esprit : choisissez entre un massage thérapeutique ou l\'acupuncture pour soulager les tensions.',
+      descriptionKey: 'tarifsPage.experiences.relaxamentoEssencial.description',
       price: '225 R$',
     },
     {
-      title: 'Harmonia Profunda',
+      titleKey: 'tarifsPage.experiences.harmoniaProfunda.title',
       duration: '1h30',
-      description: '1h30 de massage thérapeutique ou 1h de massage combiné avec bain de pieds pour revitaliser vos énergies.',
+      descriptionKey: 'tarifsPage.experiences.harmoniaProfunda.description',
       price: '270 R$',
     },
     {
-      title: 'Bem-Estar Supremo',
+      titleKey: 'tarifsPage.experiences.bemEstarSupremo.title',
       duration: '2 heures',
-      description: 'La combinaison parfaite : massage relaxant et acupuncture pour une expérience transformante.',
+      descriptionKey: 'tarifsPage.experiences.bemEstarSupremo.description',
       price: '333 R$',
     },
   ];
 
   const plans = [
     {
-      title: 'Renove Sua Energia',
+      titleKey: 'tarifsPage.plans.renoveSuaEnergia.title',
       sessions: '4 séances d\'une heure',
-      description: 'Pour ceux qui recherchent un soin continu et profond, idéal pour soulager le stress accumulé.',
+      descriptionKey: 'tarifsPage.plans.renoveSuaEnergia.description',
       price: '720 R$',
     },
     {
-      title: 'Transformação Total',
+      titleKey: 'tarifsPage.plans.transformacaoTotal.title',
       sessions: '4 séances de 2 heures',
-      description: 'Le soin idéal pour transformer votre bien-être avec des traitements prolongés.',
+      descriptionKey: 'tarifsPage.plans.transformacaoTotal.description',
       price: '1.233 R$',
     },
     {
-      title: 'Massagem Terapêutica',
+      titleKey: 'tarifsPage.plans.massagemTherapeutica.title',
       sessions: '10 séances',
-      description: 'Découvrez la puissance de 10 séances de massage pour restaurer votre santé et votre équilibre.',
+      descriptionKey: 'tarifsPage.plans.massagemTherapeutica.description',
       price: '1.800 R$',
     },
     {
-      title: 'Acupuntura Intensiva',
+      titleKey: 'tarifsPage.plans.acupunturaIntensiva.title',
       sessions: '10 séances',
-      description: 'Un plan dédié pour traiter les inconforts et promouvoir l\'équilibre interne.',
+      descriptionKey: 'tarifsPage.plans.acupunturaIntensiva.description',
       price: '1.233 R$',
     },
   ];
 
+  // Détecter quand la section est visible
+  const { ref: titleRef, inView: titleInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const { ref: experiencesRef, inView: experiencesInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const { ref: plansRef, inView: plansInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const { ref: buttonRef, inView: buttonInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+
+  // Variants pour les animations
+  const containerVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  const listVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (i = 1) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2,
+      },
+    }),
+  };
+
   return (
     <section className="bg-[#f5e6cc] text-black py-16 px-6 mt-8">
       <div className="max-w-7xl mx-auto">
-        {/* Title */}
-        <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-[#3c9d9b]">Nos Tarifs</h2>
-        </div>
+        {/* Titre */}
+        <motion.div
+          ref={titleRef}
+          initial="hidden"
+          animate={titleInView ? "visible" : "hidden"}
+          variants={containerVariants}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="text-center mb-8"
+        >
+          <h2 className="text-4xl font-bold text-[#3c9d9b]">{t("tarifsPage.title")}</h2>
+        </motion.div>
 
         {/* Experiences */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold text-[#7d3c98] mb-4">Expériences Revitalisantes</h3>
+        <motion.div
+          ref={experiencesRef}
+          initial="hidden"
+          animate={experiencesInView ? "visible" : "hidden"}
+          variants={containerVariants}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="mb-12"
+        >
+          <h3 className="text-2xl font-semibold text-[#7d3c98] mb-4">{t("tarifsPage.experiences.heading")}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {experiences.map((item, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-                <h4 className="text-xl font-semibold text-[#7d3c98] mb-2">{item.title}</h4>
-                <p className="text-gray-700">Durée : {item.duration}</p>
-                <p className="text-gray-700">{item.description}</p>
-                <p className="text-gray-700 font-bold mt-2">Prix : {item.price}</p>
-              </div>
+              <motion.div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-lg"
+                initial="hidden"
+                animate={experiencesInView ? "visible" : "hidden"}
+                variants={listVariants}
+                custom={index}
+              >
+                <h4 className="text-xl font-semibold text-[#7d3c98] mb-2">{t(item.titleKey)}</h4>
+                <p className="text-gray-700"><strong>{t("tarifsPage.duration")}:</strong> {item.duration}</p>
+                <p className="text-gray-700">{t(item.descriptionKey)}</p>
+                <p className="text-gray-700 font-bold mt-2"><strong>{t("tarifsPage.price")}:</strong> {item.price}</p>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
 
         {/* Plans */}
-        <div>
-          <h3 className="text-2xl font-semibold text-[#7d3c98] mb-4">Plans de Traitement</h3>
+        <motion.div
+          ref={plansRef}
+          initial="hidden"
+          animate={plansInView ? "visible" : "hidden"}
+          variants={containerVariants}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="mb-12"
+        >
+          <h3 className="text-2xl font-semibold text-[#7d3c98] mb-4">{t("tarifsPage.plans.heading")}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {plans.map((item, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-                <h4 className="text-xl font-semibold text-[#7d3c98] mb-2">{item.title}</h4>
-                <p className="text-gray-700">{item.sessions}</p>
-                <p className="text-gray-700">{item.description}</p>
-                <p className="text-gray-700 font-bold mt-2">Prix : {item.price}</p>
-              </div>
+              <motion.div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-lg"
+                initial="hidden"
+                animate={plansInView ? "visible" : "hidden"}
+                variants={listVariants}
+                custom={index}
+              >
+                <h4 className="text-xl font-semibold text-[#7d3c98] mb-2">{t(item.titleKey)}</h4>
+                <p className="text-gray-700"><strong>{t("tarifsPage.sessions")}:</strong> {item.sessions}</p>
+                <p className="text-gray-700">{t(item.descriptionKey)}</p>
+                <p className="text-gray-700 font-bold mt-2"><strong>{t("tarifsPage.price")}:</strong> {item.price}</p>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
+
+        {/* Bouton de Redirection vers les Avis Google ou la Page de Réservation */}
+        <motion.div
+          ref={buttonRef}
+          initial="hidden"
+          animate={buttonInView ? "visible" : "hidden"}
+          variants={containerVariants}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="text-center mt-12"
+        >
+          <motion.button
+            className="inline-block bg-[#3c9d9b] hover:bg-[#2b7a79] text-white py-3 px-6 rounded-full transition-colors duration-300"
+            onClick={() => navigate("/contact")}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {t("tarifsPage.bookNow")}
+          </motion.button>
+        </motion.div>
       </div>
     </section>
   );
