@@ -155,7 +155,8 @@
         "title": "Contact",
         "path": "/contact",
         "icon": "<FaEnvelope />"
-      }
+      },
+      { "title": "Prendre Rendez-vous", "path": "/booking" }
     ],
     "homeHeader": {
       "title": "Discover the Harmony Between Your Body and Mind",
@@ -253,6 +254,21 @@
     "contactForm": {
       "heading": "Contact Form",
       "message": "Our contact form is under construction. Please reach out to us via WhatsApp or Email."
+    }
+  },
+  "bookingPage": {
+    "title": "Book an Appointment",
+    "subtitle": "Fill out the form below to book your session.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "date": "Date",
+      "time": "Time",
+      "message": "Message",
+      "submit": "Book",
+      "validation": "Please fill out all required fields.",
+      "success": "Your appointment has been successfully booked!",
+      "error": "An error occurred. Please try again later."
     }
   },
     "language": {

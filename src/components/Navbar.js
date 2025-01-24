@@ -10,13 +10,17 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next"; 
 import { useInView } from "react-intersection-observer"; 
 
+
 // Import des icônes
 import {
   FaHome,
   FaServicestack,
   FaDollarSign,
   FaEnvelope,
-  FaWhatsapp, // Icône WhatsApp
+  FaCalendarAlt,
+  FaWhatsapp, 
+  
+  // Icône WhatsApp
 } from "react-icons/fa";
 
 const Navbar = () => {
@@ -69,6 +73,7 @@ const Navbar = () => {
     "/services": <FaServicestack className="inline-block mr-2" />,
     "/prices": <FaDollarSign className="inline-block mr-2" />,
     "/contact": <FaEnvelope className="inline-block mr-2" />,
+    "/booking": <FaCalendarAlt className="inline-block mr-2" />
   };
 
   return (

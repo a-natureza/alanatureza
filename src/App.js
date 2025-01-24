@@ -13,7 +13,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Legal = lazy(() => import('./pages/MentionsLegales'));
 const Privacy = lazy(() => import('./pages/PolitiqueConfidentialite'));
-
+const BookingPage = lazy(() => import('./pages/BookingPage'));
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/booking" element={<BookingPage />} /> {/* Nouvelle route */}
           </Routes>
         </main>
       </Suspense>
