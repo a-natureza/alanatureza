@@ -1,9 +1,9 @@
 // src/pages/Contact.jsx
 
+import { motion } from 'framer-motion';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { FaWhatsapp, FaEnvelope, FaInstagram, FaFacebook } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import { FaEnvelope, FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <section className="bg-[#f5e6cc] text-black py-16 px-6 mt-8">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Titre Principal */}
         <motion.div
           ref={titleRef}
@@ -104,7 +104,7 @@ const Contact = () => {
           <div className="flex space-x-6 justify-center">
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/tendanapraia/"
+              href="https://www.instagram.com/alanatureza_/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-4xl text-pink-600 hover:text-pink-800 transition-colors duration-300"

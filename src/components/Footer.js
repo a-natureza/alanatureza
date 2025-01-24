@@ -1,15 +1,14 @@
 // src/components/Footer.jsx
 
+import { motion } from "framer-motion";
 import React from "react";
+import { useTranslation } from "react-i18next"; // Import du hook useTranslation
 import {
   FaFacebookF,
-  FaWhatsapp,
   FaInstagram,
-  
+  FaWhatsapp,
 } from "react-icons/fa";
-import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useTranslation } from "react-i18next"; // Import du hook useTranslation
 import { Link } from 'react-router-dom';
 
 
@@ -83,9 +82,9 @@ const Footer = () => {
               >
                 <FaFacebookF size={24} />
               </a>
-            
+
               <a
-                href="https://www.instagram.com/tendanapraia/"
+                href="https://www.instagram.com/alanatureza_/"
                 target="_blank"
                 rel="tendanapraia noreferrer"
                 className="hover:text-[#f5e6cc]"
@@ -119,13 +118,13 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Alana Tureza. {t("footer.allRights")}
         </p>
         <p>
-        <Link to="/legal" className="hover:text-[#f5e6cc]">
-  {t("footer.legalNotices")}
-</Link>
+          <Link to="/legal" className="hover:text-[#f5e6cc]">
+            {t("footer.legalNotices")}
+          </Link>
           |
           <Link to="/privacy" className="hover:text-[#f5e6cc]">
-  {t("footer.privacyPolicy")}
-</Link>
+            {t("footer.privacyPolicy")}
+          </Link>
         </p>
       </div>
     </motion.footer>
