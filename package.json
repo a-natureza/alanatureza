@@ -10,6 +10,7 @@
     "axios": "^1.7.8",
     "classnames": "^2.5.1",
     "framer-motion": "^11.18.0",
+    "googleapis": "^144.0.0",
     "i18next": "^23.4.6",
     "i18next-browser-languagedetector": "^8.0.2",
     "react": "^18.3.1",

@@ -7,11 +7,20 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  const { name, email, date, time, message } = req.body;
+  const { name, email, date, time, message, captchaToken } = req.body;
 
   // Validation de base
-  if (!name || !email || !date || !time) {
+  if (!name || !email || !date || !time || !captchaToken) {
     return res.status(400).json({ message: 'Missing required fields' });
+  }
+
+  // Valider le reCAPTCHA
+  const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaToken}`;
+  const response = await fetch(verifyUrl, { method: 'POST' });
+  const captchaResponse = await response.json();
+
+  if (!captchaResponse.success) {
+    return res.status(400).json({ message: 'Invalid CAPTCHA' });
   }
 
   // Combiner date et heure en objets Date
