@@ -1,62 +1,60 @@
 {
-    "faq": {
-      "title": "Questions Fréquemment Posées",
-      "intro": "Trouvez ici les réponses aux questions les plus courantes sur nos services.",
-      "questions": [
-        {
-          "question": "Quels sont les bienfaits de l'acupuncture ?",
-          "answer": "L'acupuncture aide à rééquilibrer l'énergie du corps, soulager la douleur, réduire le stress et améliorer le bien-être général."
-        },
-        {
-          "question": "Combien de séances sont nécessaires pour obtenir des résultats ?",
-          "answer": "Le nombre de séances dépend de la condition traitée. Certaines personnes ressentent des bienfaits dès la première séance, tandis que d'autres peuvent nécessiter plusieurs consultations."
-        },
-        {
-          "question": "Vos services sont-ils adaptés à tout le monde ?",
-          "answer": "Oui, nos services conviennent aux adultes, enfants et seniors. Cependant, certaines techniques peuvent être adaptées selon les besoins individuels."
-        },
-        {
-          "question": "Proposez-vous des consultations personnalisées ?",
-          "answer": "Oui, chaque consultation est adaptée en fonction des besoins et des objectifs du client."
-        },
-        {
-          "question": "Quelles sont les contre-indications aux traitements ?",
-          "answer": "Certaines conditions spécifiques, telles que les infections aiguës, les plaies ouvertes ou les grossesses à risque, peuvent nécessiter des ajustements ou l'évitement de certains traitements."
-        },
-        {
-          "question": "Puis-je réserver une séance en ligne ?",
-          "answer": "Oui, vous pouvez réserver une séance directement en ligne via notre site web ou en nous contactant par téléphone."
-        }
-      ],
-      "btnLabel": "Poser une autre question"
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "intro": "Trouvez ici les réponses aux questions les plus courantes sur nos services.",
+    "questions": [
+      {
+        "question": "Quels sont les bienfaits de l'acupuncture ?",
+        "answer": "L'acupuncture aide à rééquilibrer l'énergie du corps, soulager la douleur, réduire le stress et améliorer le bien-être général."
+      },
+      {
+        "question": "Combien de séances sont nécessaires pour obtenir des résultats ?",
+        "answer": "Le nombre de séances dépend de la condition traitée. Certaines personnes ressentent des bienfaits dès la première séance, tandis que d'autres peuvent nécessiter plusieurs consultations."
+      },
+      {
+        "question": "Vos services sont-ils adaptés à tout le monde ?",
+        "answer": "Oui, nos services conviennent aux adultes, enfants et seniors. Cependant, certaines techniques peuvent être adaptées selon les besoins individuels."
+      },
+      {
+        "question": "Proposez-vous des consultations personnalisées ?",
+        "answer": "Oui, chaque consultation est adaptée en fonction des besoins et des objectifs du client."
+      },
+      {
+        "question": "Quelles sont les contre-indications aux traitements ?",
+        "answer": "Certaines conditions spécifiques, telles que les infections aiguës, les plaies ouvertes ou les grossesses à risque, peuvent nécessiter des ajustements ou l'évitement de certains traitements."
+      },
+      {
+        "question": "Puis-je réserver une séance en ligne ?",
+        "answer": "Oui, vous pouvez réserver une séance directement en ligne via notre site web ou en nous contactant par téléphone."
+      }
+    ],
+    "btnLabel": "Poser une autre question"
+  },
+  "presentation": {
+    "title": "Qui suis-je ?",
+    "name": "Alana Tureza",
+    "subtitle": "Acupuncture & Bien-être",
+    "intro": "\"Je suis une professionnelle qualifiée avec plus de 16 ans d'expérience dans les soins de santé, spécialisée en acupuncture traditionnelle chinoise, massage thérapeutique, et bien-être. Mon objectif est de vous guider vers un équilibre physique et énergétique, en harmonie avec votre esprit.\"",
+    "imageAltMobile": "Alana Tureza",
+    "imageAltDesktop": "Alana Tureza",
+    "degrees": {
+      "title": "Diplômes et qualifications",
+      "list": [
+        "Titre de Technicienne en Acupuncture, 2009 (1600h)",
+        "Shiatsu Koho-Igaku, 2008 (725h)",
+        "Manipulation Vertébrale et Esthétique Médicale"
+      ]
     },
-    
-        "presentation": {
-          "title": "Qui suis-je ?",
-          "name": "Alana Tureza",
-          "subtitle": "Acupuncture & Bien-être",
-          "intro": "\"Je suis une professionnelle qualifiée avec plus de 16 ans d'expérience dans les soins de santé, spécialisée en acupuncture traditionnelle chinoise, massage thérapeutique, et bien-être. Mon objectif est de vous guider vers un équilibre physique et énergétique, en harmonie avec votre esprit.\"",
-          "imageAltMobile": "Alana Tureza",
-          "imageAltDesktop": "Alana Tureza",
-          "degrees": {
-            "title": "Diplômes et qualifications",
-            "list": [
-              "Titre de Technicienne en Acupuncture, 2009 (1600h)",
-              "Shiatsu Koho-Igaku, 2008 (725h)",
-              "Manipulation Vertébrale et Esthétique Médicale"
-            ]
-          },
-          "numbers": {
-            "title": "Quelques chiffres",
-            "list": [
-              "+16 ans d'expérience",
-              "+6000 patients satisfaits",
-              "Soins spécialisés pour adultes, enfants, et post-cancer"
-            ]
-          }
-        }
-      ,
-      "services": {
+    "numbers": {
+      "title": "Quelques chiffres",
+      "list": [
+        "+16 ans d'expérience",
+        "+6000 patients satisfaits",
+        "Soins spécialisés pour adultes, enfants, et post-cancer"
+      ]
+    }
+  },
+  "services": {
     "title": "Nos Services",
     "intro": "Découvrez nos thérapies pour une vie plus équilibrée et harmonieuse.",
     "list": [
@@ -83,11 +81,14 @@
       {
         "title": "Shiatsu Facial",
         "description": "Rejuvenesce a pele, melhora a circulação e alivia tensões na face."
+      },
+      {
+        "title": "Accueil",
+        "description": "Notre espace, situé à Barra da Lagoa (Florianópolis), offre un cadre zen et chaleureux, propice à la détente totale. Chaque détail est pensé pour favoriser votre bien-être."
       }
     ]
   },
-  
-"tarifs": {
+  "tarifs": {
     "title": "Tarifs",
     "description": "Découvrez nos offres pour une expérience unique de bien-être.",
     "list": [
@@ -108,8 +109,7 @@
       }
     ],
     "button": "Voir tous les tarifs"
-  }
-  ,
+  },
   "reservationCTA": {
     "title": "Prêt à prendre soin de vous ?",
     "description": "Offrez-vous un moment de bien-être et d'équilibre grâce à nos séances personnalisées. Prenez rendez-vous dès maintenant pour découvrir nos soins adaptés à vos besoins.",
@@ -123,7 +123,6 @@
     "address": "Rod. Jorn. Manoel de Menezes",
     "city": "1666 - Barra da Lagoa",
     "fullAddress": "Florianópolis, SC, 88061-700, Brésil",
-    
     "phone": "+55 38 98839-1892",
     "locationTitle": "Où Nous Trouver",
     "mapTitle": "Carte de Localisation",
@@ -259,12 +258,10 @@
       "message": "Notre formulaire de contact est en cours de construction. Veuillez nous contacter via WhatsApp ou Email."
     }
   },
-
-    "language": {
-      "english": "Anglais",
-      "french": "Français",
-      "spanish": "Espanhol",
-      "portuguese": "Português"
-    }
+  "language": {
+    "english": "Anglais",
+    "french": "Français",
+    "spanish": "Espanhol",
+    "portuguese": "Português"
   }
-  
+}
