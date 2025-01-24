@@ -17,7 +17,7 @@ import {
   FaServicestack,
   FaDollarSign,
   FaEnvelope,
-  FaCalendarAlt,
+
   FaWhatsapp, 
   
   // Icône WhatsApp
@@ -73,7 +73,7 @@ const Navbar = () => {
     "/services": <FaServicestack className="inline-block mr-2" />,
     "/prices": <FaDollarSign className="inline-block mr-2" />,
     "/contact": <FaEnvelope className="inline-block mr-2" />,
-    "/booking": <FaCalendarAlt className="inline-block mr-2" />
+
   };
 
   return (
