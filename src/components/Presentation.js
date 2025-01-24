@@ -58,7 +58,7 @@ const Presentation = () => {
           className="block md:hidden flex justify-center mb-8"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/alana2.webp`} // Remplacez par votre chemin
+            src={`${process.env.PUBLIC_URL}/assets/images/alana.jpg`} // Remplacez par votre chemin
             alt={t('presentation.imageAltMobile')}
             className="w-40 h-40 object-cover shadow-lg rounded-full"
           />
@@ -93,7 +93,7 @@ const Presentation = () => {
             className="hidden md:flex md:w-1/2 justify-center"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/alana2.webp`}
+              src={`${process.env.PUBLIC_URL}/assets/images/alana.jpg`}
               alt={t('presentation.imageAltDesktop')}
               className="w-40 h-40 md:w-80 md:h-96 object-cover shadow-lg rounded-lg"
             />
