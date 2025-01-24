@@ -155,8 +155,7 @@
             "title": "Contacto",
             "path": "/contact",
             "icon": "<FaEnvelope />"
-          },
-          { "title": "Prendre Rendez-vous", "path": "/booking" }
+          }
         ],
         "homeHeader": {
           "title": "Descubre la Armonía entre tu Cuerpo y Mente",
@@ -256,21 +255,7 @@
           "message": "Nuestro formulario de contacto está en construcción. Por favor, contáctanos vía WhatsApp o Correo Electrónico."
         }
       },
-      "bookingPage": {
-        "title": "Book an Appointment",
-        "subtitle": "Fill out the form below to book your session.",
-        "form": {
-          "name": "Name",
-          "email": "Email",
-          "date": "Date",
-          "time": "Time",
-          "message": "Message",
-          "submit": "Book",
-          "validation": "Please fill out all required fields.",
-          "success": "Your appointment has been successfully booked!",
-          "error": "An error occurred. Please try again later."
-        }
-      },
+
     "language": {
       "english": "Inglés",
       "french": "Francés",
