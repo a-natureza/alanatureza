@@ -1,115 +1,112 @@
 {
-    "faq": {
-      "title": "Perguntas Frequentes",
-      "intro": "Encontre aqui as respostas para as perguntas mais comuns sobre nossos serviços.",
-      "questions": [
-        {
-          "question": "Quais são os benefícios da acupuntura?",
-          "answer": "A acupuntura ajuda a reequilibrar a energia do corpo, aliviar dores, reduzir o estresse e melhorar o bem-estar geral."
-        },
-        {
-          "question": "Quantas sessões são necessárias para obter resultados?",
-          "answer": "O número de sessões depende da condição a ser tratada. Algumas pessoas sentem os benefícios após a primeira sessão, enquanto outras podem precisar de várias consultas."
-        },
-        {
-          "question": "Os seus serviços são adequados para todos?",
-          "answer": "Sim, nossos serviços são adequados para adultos, crianças e idosos. No entanto, algumas técnicas podem ser adaptadas às necessidades individuais."
-        },
-        {
-          "question": "Vocês oferecem consultas personalizadas?",
-          "answer": "Sim, cada consulta é personalizada com base nas necessidades e objetivos do cliente."
-        },
-        {
-          "question": "Quais são as contraindicações para os tratamentos?",
-          "answer": "Condições específicas, como infecções agudas, feridas abertas ou gravidezes de alto risco, podem exigir ajustes ou a exclusão de certos tratamentos."
-        },
-        {
-          "question": "Posso agendar uma sessão online?",
-          "answer": "Sim, você pode agendar uma sessão diretamente online através do nosso site ou entrando em contato por telefone."
-        }
-      ],
-      "btnLabel": "Faça outra pergunta"
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "intro": "Encontre aqui as respostas para as perguntas mais comuns sobre nossos serviços.",
+    "questions": [
+      {
+        "question": "Quais são os benefícios da acupuntura?",
+        "answer": "A acupuntura ajuda a reequilibrar a energia do corpo, aliviar dores, reduzir o estresse e melhorar o bem-estar geral."
+      },
+      {
+        "question": "Quantas sessões são necessárias para obter resultados?",
+        "answer": "O número de sessões depende da condição a ser tratada. Algumas pessoas sentem os benefícios após a primeira sessão, enquanto outras podem precisar de várias consultas."
+      },
+      {
+        "question": "Os seus serviços são adequados para todos?",
+        "answer": "Sim, nossos serviços são adequados para adultos, crianças e idosos. No entanto, algumas técnicas podem ser adaptadas às necessidades individuais."
+      },
+      {
+        "question": "Vocês oferecem consultas personalizadas?",
+        "answer": "Sim, cada consulta é personalizada com base nas necessidades e objetivos do cliente."
+      },
+      {
+        "question": "Quais são as contraindicações para os tratamentos?",
+        "answer": "Condições específicas, como infecções agudas, feridas abertas ou gravidezes de alto risco, podem exigir ajustes ou a exclusão de certos tratamentos."
+      },
+      {
+        "question": "Posso agendar uma sessão online?",
+        "answer": "Sim, você pode agendar uma sessão diretamente online através do nosso site ou entrando em contato por telefone."
+      }
+    ],
+    "btnLabel": "Faça outra pergunta"
+  },
+  "presentation": {
+    "title": "Quem sou eu?",
+    "name": "Alana Tureza",
+    "subtitle": "Acupuntura & Bem-estar",
+    "intro": "\"Sou uma profissional qualificada com mais de 16 anos de experiência em cuidados de saúde, especializada em acupuntura tradicional chinesa, massagem terapêutica e bem-estar. Meu objetivo é guiá-lo para um equilíbrio físico e energético, em harmonia com seu espírito.\"",
+    "imageAltMobile": "Alana Tureza",
+    "imageAltDesktop": "Alana Tureza",
+    "degrees": {
+      "title": "Diplomas e Qualificações",
+      "list": [
+        "Técnico em Acupuntura, 2009 (1600h)",
+        "Shiatsu Koho-Igaku, 2008 (725h)",
+        "Manipulação Vertebral e Estética Médica"
+      ]
     },
-    "presentation": {
-        "title": "Quem sou eu?",
-        "name": "Alana Tureza",
-        "subtitle": "Acupuntura & Bem-estar",
-        "intro": "\"Sou uma profissional qualificada com mais de 16 anos de experiência em cuidados de saúde, especializada em acupuntura tradicional chinesa, massagem terapêutica e bem-estar. Meu objetivo é guiá-lo para um equilíbrio físico e energético, em harmonia com seu espírito.\"",
-        "imageAltMobile": "Alana Tureza",
-        "imageAltDesktop": "Alana Tureza",
-        "degrees": {
-          "title": "Diplomas e Qualificações",
-          "list": [
-            "Técnico em Acupuntura, 2009 (1600h)",
-            "Shiatsu Koho-Igaku, 2008 (725h)",
-            "Manipulação Vertebral e Estética Médica"
-          ]
-        },
-        "numbers": {
-          "title": "Alguns Números",
-          "list": [
-            "+16 anos de experiência",
-            "+6000 pacientes satisfeitos",
-            "Atendimento especializado para adultos, crianças e pós-câncer"
-          ]
-        }
+    "numbers": {
+      "title": "Alguns Números",
+      "list": [
+        "+16 anos de experiência",
+        "+6000 pacientes satisfeitos",
+        "Atendimento especializado para adultos, crianças e pós-câncer"
+      ]
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "intro": "Descubra nossas terapias para uma vida mais equilibrada e harmoniosa.",
+    "list": [
+      {
+        "title": "Massagem Relaxante",
+        "description": "Promove relaxamento profundo, reduz o estresse e melhora a circulação sanguínea."
       },
-      "services": {
-        "title": "Nossos Serviços",
-        "intro": "Descubra nossas terapias para uma vida mais equilibrada e harmoniosa.",
-        "list": [
-          {
-            "title": "Massagem Relaxante",
-            "description": "Promove relaxamento profundo, reduz o estresse e melhora a circulação sanguínea."
-          },
-          {
-            "title": "Acupuntura Tradicional",
-            "description": "Prática milenar chinesa que alivia dores e reequilibra o corpo através de pontos específicos."
-          },
-          {
-            "title": "Shiatsu Koho-Igaku",
-            "description": "Técnica japonesa que utiliza pressão com os dedos para harmonizar corpo e mente."
-          },
-          {
-            "title": "Massagem Esportiva",
-            "description": "Ideal para atletas, alivia tensões musculares e auxilia na recuperação pós-treino."
-          },
-          {
-            "title": "Massagem de Bambu",
-            "description": "Massagem feita com bambus, proporcionando relaxamento e ativação da circulação."
-          },
-          {
-            "title": "Shiatsu Facial",
-            "description": "Rejuvenesce a pele, melhora a circulação e alivia tensões na face."
-          }
-        ]
+      {
+        "title": "Acupuntura Tradicional",
+        "description": "Prática milenar chinesa que alivia dores e reequilibra o corpo através de pontos específicos."
       },
-      
-        "tarifs": {
-          "title": "Tarifas",
-          "description": "Descubra nossas ofertas para uma experiência única de bem-estar.",
-          "list": [
-            {
-              "title": "Relaxamento Essencial",
-              "duration": "1 hora",
-              "price": "225 R$"
-            },
-            {
-              "title": "Harmonia Profunda",
-              "duration": "1h30",
-              "price": "270 R$"
-            },
-            {
-              "title": "Bem-Estar Supremo",
-              "duration": "2 horas",
-              "price": "333 R$"
-            }
-          ],
-          "button": "Ver Todas as Tarifas"
-        }
-      
-,      
-"reservationCTA": {
+      {
+        "title": "Shiatsu Koho-Igaku",
+        "description": "Técnica japonesa que utiliza pressão com os dedos para harmonizar corpo e mente."
+      },
+      {
+        "title": "Massagem Esportiva",
+        "description": "Ideal para atletas, alivia tensões musculares e auxilia na recuperação pós-treino."
+      },
+      {
+        "title": "Massagem de Bambu",
+        "description": "Massagem feita com bambus, proporcionando relaxamento e ativação da circulação."
+      },
+      {
+        "title": "Shiatsu Facial",
+        "description": "Rejuvenesce a pele, melhora a circulação e alivia tensões na face."
+      }
+    ]
+  },
+  "tarifs": {
+    "title": "Tarifas",
+    "description": "Descubra nossas ofertas para uma experiência única de bem-estar.",
+    "list": [
+      {
+        "title": "Relaxamento Essencial",
+        "duration": "1 hora",
+        "price": "225 R$"
+      },
+      {
+        "title": "Harmonia Profunda",
+        "duration": "1h30",
+        "price": "270 R$"
+      },
+      {
+        "title": "Bem-Estar Supremo",
+        "duration": "2 horas",
+        "price": "333 R$"
+      }
+    ],
+    "button": "Ver Todas as Tarifas"
+  },
+  "reservationCTA": {
     "title": "Pronto para cuidar de você?",
     "description": "Presente-se com um momento de bem-estar e equilíbrio através das nossas sessões personalizadas. Agende uma consulta agora para descobrir nossos tratamentos adaptados às suas necessidades.",
     "button": "Reservar Agora",
@@ -122,7 +119,6 @@
     "address": "Rod. Jorn. Manoel de Menezes",
     "city": "1666 - Barra da Lagoa",
     "fullAddress": "Florianópolis, SC, 88061-700, Brasil",
-    
     "phone": "+55 38 98839-1892",
     "locationTitle": "Onde Nos Encontrar",
     "mapTitle": "Mapa de Localização",
@@ -242,7 +238,7 @@
     "contactInfo": {
       "heading": "Entre em Contato",
       "whatsapp": "WhatsApp: +55 38 98839-1892",
-      "email": "Email: alanatureza@hotmail.com"
+      "email": "Email: contact@alanatureza.com.br"
     },
     "findUs": {
       "heading": "Encontre-nos em",
@@ -258,12 +254,10 @@
       "message": "Nosso formulário de contato está em construção. Por favor, entre em contato via WhatsApp ou Email."
     }
   },
-
-    "language": {
-      "english": "Inglês",
-      "french": "Francês",
-      "spanish": "Espanhol",
-      "portuguese": "Português"
-    }
+  "language": {
+    "english": "Inglês",
+    "french": "Francês",
+    "spanish": "Espanhol",
+    "portuguese": "Português"
   }
-  
+}

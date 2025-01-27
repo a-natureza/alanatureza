@@ -42,7 +42,7 @@ const Footer = () => {
             <strong>{t("footer.city")}</strong>
           </p>
           <p className="mb-2">{t("footer.fullAddress")}</p>
-          <p className="mb-2">✉️ alanatureza@hotmail.com</p>
+          <p className="mb-2">✉️ contact@alanatureza.com.br</p>
 
           <p>📞 {t("footer.phone")}</p>
         </div>

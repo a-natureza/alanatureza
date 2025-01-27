@@ -1,36 +1,36 @@
 {
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "intro": "Find here the answers to the most common questions about our services.",
-      "questions": [
-        {
-          "question": "What are the benefits of acupuncture?",
-          "answer": "Acupuncture helps rebalance the body's energy, relieve pain, reduce stress, and improve overall well-being."
-        },
-        {
-          "question": "How many sessions are necessary to get results?",
-          "answer": "The number of sessions depends on the condition being treated. Some people feel benefits after the first session, while others may require multiple consultations."
-        },
-        {
-          "question": "Are your services suitable for everyone?",
-          "answer": "Yes, our services are suitable for adults, children, and seniors. However, some techniques may be adapted according to individual needs."
-        },
-        {
-          "question": "Do you offer personalized consultations?",
-          "answer": "Yes, each consultation is tailored based on the client's needs and goals."
-        },
-        {
-          "question": "What are the contraindications for treatments?",
-          "answer": "Certain specific conditions, such as acute infections, open wounds, or high-risk pregnancies, may require adjustments or avoidance of certain treatments."
-        },
-        {
-          "question": "Can I book a session online?",
-          "answer": "Yes, you can book a session directly online via our website or by contacting us by phone."
-        }
-      ],
-      "btnLabel": "Ask another question"
-    },
-    "presentation": {
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Find here the answers to the most common questions about our services.",
+    "questions": [
+      {
+        "question": "What are the benefits of acupuncture?",
+        "answer": "Acupuncture helps rebalance the body's energy, relieve pain, reduce stress, and improve overall well-being."
+      },
+      {
+        "question": "How many sessions are necessary to get results?",
+        "answer": "The number of sessions depends on the condition being treated. Some people feel benefits after the first session, while others may require multiple consultations."
+      },
+      {
+        "question": "Are your services suitable for everyone?",
+        "answer": "Yes, our services are suitable for adults, children, and seniors. However, some techniques may be adapted according to individual needs."
+      },
+      {
+        "question": "Do you offer personalized consultations?",
+        "answer": "Yes, each consultation is tailored based on the client's needs and goals."
+      },
+      {
+        "question": "What are the contraindications for treatments?",
+        "answer": "Certain specific conditions, such as acute infections, open wounds, or high-risk pregnancies, may require adjustments or avoidance of certain treatments."
+      },
+      {
+        "question": "Can I book a session online?",
+        "answer": "Yes, you can book a session directly online via our website or by contacting us by phone."
+      }
+    ],
+    "btnLabel": "Ask another question"
+  },
+  "presentation": {
     "title": "Who am I?",
     "name": "Alana Tureza",
     "subtitle": "Acupuncture & Wellness",
@@ -119,7 +119,6 @@
     "address": "Rod. Jorn. Manoel de Menezes",
     "city": "1666 - Barra da Lagoa",
     "fullAddress": "Florianópolis, SC, 88061-700, Brazil",
-    
     "phone": "+55 38 98839-1892",
     "locationTitle": "Where to Find Us",
     "mapTitle": "Location Map",
@@ -239,7 +238,7 @@
     "contactInfo": {
       "heading": "Get in Touch",
       "whatsapp": "WhatsApp: +55 38 98839-1892",
-      "email": "Email: alanatureza@hotmail.com"
+      "email": "Email: contact@alanatureza.com.br"
     },
     "findUs": {
       "heading": "Find Us On",
@@ -255,12 +254,10 @@
       "message": "Our contact form is under construction. Please reach out to us via WhatsApp or Email."
     }
   },
-
-    "language": {
-      "english": "English",
-      "french": "Français",
-      "spanish": "Español",
-      "portuguese": "Português"
-    }
+  "language": {
+    "english": "English",
+    "french": "Français",
+    "spanish": "Español",
+    "portuguese": "Português"
   }
-  
+}

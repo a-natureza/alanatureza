@@ -80,7 +80,7 @@ const Contact = () => {
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-red-500 text-3xl" />
               <a
-                href="mailto:alanatureza@hotmail.com"
+                href="mailto:contact@alanatureza.com.br"
                 className="text-lg text-gray-700 hover:text-[#3c9d9b] transition-colors duration-300"
               >
                 {t('contactPage.contactInfo.email')}
