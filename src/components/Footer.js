@@ -52,7 +52,7 @@ const Footer = () => {
             {t("footer.locationTitle")}
           </h3>
           <div className="w-full h-48">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.1897346824558!2d-48.52411212475055!3d-27.58764667625136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273f9b14b9d63b%3A0x59419eb3e9246d7f!2sMassagem%20%26%20Acupuntura%20-%20Alana%20Daniele!5e0!3m2!1spt-BR!2sbr!4v1757866907295!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.1897346824558!2d-48.52411212475055!3d-27.58764667625136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273f9b14b9d63b%3A0x59419eb3e9246d7f!2sMassagem%20%26%20Acupuntura%20-%20Alana%20Daniele!5e0!3m2!1spt-BR!2sbr!4v1757866907295!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
