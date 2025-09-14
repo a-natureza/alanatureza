@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="w-full h-48">
             <iframe
               title={t("footer.mapTitle")}
-              src="https://www.google.com/maps/dir//R.+Profa.+Eno%C3%A9+Schutel,+168+-+Trindade,+Florian%C3%B3polis+-+SC,+88036-208/@-27.7138292,-48.4597431,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95273f9b14b9d63b:0x59419eb3e9246d7f!2m2!1d-48.5215372!2d-27.5876467?hl=pt-BR&authuser=0&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.855119317759!2d-48.43821742378752!3d-27.598021022187417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273e7cc4df2fd7%3A0x63dd1df82e08e170!2sRod.%20Jorn.%20Manoel%20de%20Menezes%2C%201666%20-%20Barra%20da%20Lagoa%2C%20Florian%C3%B3polis%20-%20SC%2C%2088061-700%2C%20Br%C3%A9sil!5e0!3m2!1sfr!2sfr!4v1737157090789!5m2!1sfr!2sfr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
